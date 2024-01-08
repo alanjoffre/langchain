@@ -31,20 +31,16 @@ Documentações, links e miscelânea
 Antes de começarmos, tenha uma conta criada na Open AI
 - Talvez seja necessário comprar créditos, o mínimo é 5 dólares, mas vale a pena! Pra você ter uma ideia, 
 durante a gravação desse curso gastei apenas 36 centavos de dólar (atualmente perto dos R$1,80)
-
-Usaremos a ferramenta Streamlit para nossas interfaces, mas não se preocupe, você não precisa ter conhecimento nessa ferramenta
-
-
-
+Usaremos a ferramenta Streamlit para nossas interfaces, mas não se preocupe, você não precisa ter conhecimento nessa ferramenta.
 Tenha Python instalado na sua máquina
-
-
-
 E pra seguir as aulas sem problema, acesse nosso repositório no Github!
 
+Depois de baixado todo o material do github. Volte para o diretório raiz do projeto e digite o seguinte comando
+para configurar o ambiente com o arquivo: requirements.txt: pip install -r requeriments.txt
+
+Volte para o diretório Class1
 
 
-Todos os arquivos necessários para o curso estão lá!
  
 
 
