@@ -1,0 +1,51 @@
+Curso completo
+
+Criar ambiente virtual para o curso/projeto
+Abra o terminal no vs-cODE
+Digite o seguinte comando para cirar o ambiente virtual: python -m venv .venv
+Digite o seguinte comando par ativar o ambiente virtual: .\.venv\Scripts\Activate.ps1
+
+Crie uma pasta: Class1
+Dentro do diretório criado um arqui com o seguinte nome: main.py
+
+Digite no arqui main.py - Para verificar se o ambiente esta ok
+print ("Teste")
+
+Digite o seguinte comando para rodar o app em python: python main.py
+
+Na raiz do diretório crie um arquivo: .env
+
+No arquivo .env digite, edite da seguinte forma:
+
+OPENAI_API_KEY=
+OPENAI_ORGANIZATION=
+
+Para conseguir as chaves acesse o site: https://platform.openai.com/playground
+Aba: API keys
+Crie uma nova chave: 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
+Edite o arquivo.env: OPENAI_API_KEY=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
+Volte para o site da OPENAI, aba Settings, Organization, campo Oraganization ID e copie a chave
+Edite o arquivo.env: OPENAI_ORGANIZATION=org-sOXDAj9SRTV4LamTyl0Q8XmO
+
+Documentações, links e miscelânea
+Antes de começarmos, tenha uma conta criada na Open AI
+- Talvez seja necessário comprar créditos, o mínimo é 5 dólares, mas vale a pena! Pra você ter uma ideia, 
+durante a gravação desse curso gastei apenas 36 centavos de dólar (atualmente perto dos R$1,80)
+
+Usaremos a ferramenta Streamlit para nossas interfaces, mas não se preocupe, você não precisa ter conhecimento nessa ferramenta
+
+
+
+Tenha Python instalado na sua máquina
+
+
+
+E pra seguir as aulas sem problema, acesse nosso repositório no Github!
+
+
+
+Todos os arquivos necessários para o curso estão lá!
+ 
+
+
+
