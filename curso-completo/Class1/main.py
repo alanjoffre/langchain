@@ -13,7 +13,7 @@ openai_organization = os.getenv("OPENAI_ORGANIZATION")
 def generate_company_name():
     llm = ChatOpenAI(
         model="gpt-3.5-turbo",
-        temperature=0.7,
+        temperature=0.7,# quanto mais proximo de 1, mais criativo.
         openai_api_key=openai_api_key,
         openai_organization=openai_organization,
     )

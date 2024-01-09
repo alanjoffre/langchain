@@ -1,5 +1,7 @@
 Curso completo
 
+
+Ambiente testado com python 3.11
 Criar ambiente virtual para o curso/projeto
 Abra o terminal no vs-cODE
 Digite o seguinte comando para cirar o ambiente virtual: python -m venv .venv
@@ -8,7 +10,7 @@ Digite o seguinte comando par ativar o ambiente virtual: .\.venv\Scripts\Activat
 Crie uma pasta: Class1
 Dentro do diretório criado um arqui com o seguinte nome: main.py
 
-Digite no arqui main.py - Para verificar se o ambiente esta ok
+Digite no arquivo main.py - Para verificar se o ambiente esta ok
 print ("Teste")
 
 Digite o seguinte comando para rodar o app em python: python main.py
@@ -22,7 +24,7 @@ OPENAI_ORGANIZATION=
 
 Para conseguir as chaves acesse o site: https://platform.openai.com/playground
 Aba: API keys
-Crie uma nova chave: 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
+Crie uma nova chave: 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
 Edite o arquivo.env: OPENAI_API_KEY=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
 Volte para o site da OPENAI, aba Settings, Organization, campo Oraganization ID e copie a chave
 Edite o arquivo.env: OPENAI_ORGANIZATION=org-sOXDAj9SRTV4LamTyl0Q8XmO
@@ -38,7 +40,10 @@ E pra seguir as aulas sem problema, acesse nosso repositório no Github!
 Depois de baixado todo o material do github. Volte para o diretório raiz do projeto e digite o seguinte comando
 para configurar o ambiente com o arquivo: requirements.txt: pip install -r requeriments.txt
 
-Volte para o diretório Class1
+Volte para o diretório Class1.
+Edite o arquivo main.py conforme o arquivo de mesmo nome baixado no github
+Lembre-se que será necessário crédito para realizar a consulta ns internet do seu robo!
+Digite o seguinte comando para rodar o app em python: python main.py
 
 
  
