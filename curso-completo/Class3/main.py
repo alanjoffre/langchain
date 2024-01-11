@@ -1,4 +1,4 @@
-from langchain.document_loaders import YoutubeLoader
+from langchain.document_loaders import YoutubeLoader 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI

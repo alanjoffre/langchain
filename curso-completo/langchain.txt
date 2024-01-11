@@ -45,6 +45,25 @@ Edite o arquivo main.py conforme o arquivo de mesmo nome baixado no github
 Lembre-se que será necessário crédito para realizar a consulta ns internet do seu robo!
 Digite o seguinte comando para rodar o app em python: python main.py
 
+Comando para rodar o Streamlit no projeto Class2: streamlit run front.py
+
+Importando os document_loaders no projeto Class3 pelo site: https://python.langchain.com/docs/integrations/document_loaders
+
+Class5 - Main.py - Projeto: Bot conversando com uma base de dados
+
+Importante: É necessário que o sqlite3, esteja instalado na máquina.
+Na pasta do projeto Class5, digite o seguinte comando: sqlite3 Chinook.db
+Quando abrir na interface do terminal: sqlite> digite: .read chinook_sql.sql
+Aguarde ser criado o banco de dados.
+Para teste, basta efetuar o seguinte comando: SELECT + FROM Artist LIMIT 10;
+Pressione duas vezes CONTROL + C, para sair do ambiente de sqlite
+
+Execute o seguinte código: python main.py
+
+Class5 - chat_db.py
+
+Crie o cadastro no site: https://serpapi.com
+
 
  
 

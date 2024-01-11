@@ -6,7 +6,7 @@ from langchain.agents import create_sql_agent
 from langchain.agents.agent_toolkits import SQLDatabaseToolkit
 from langchain.agents.agent_types import AgentType
 
-from langchain.chains import LLMMathChain
+from langchain.chains import LLMMathChain #Faz cálculos matemáticos
 from langchain.utilities import SerpAPIWrapper
 from langchain.agents import initialize_agent, Tool
 from langchain.prompts import MessagesPlaceholder
@@ -30,7 +30,7 @@ llm = ChatOpenAI(
     verbose=True,
 )
 db_chain = SQLDatabaseChain.from_llm(llm, db, verbose=True)
-llm_math_chain = LLMMathChain.from_llm(llm=llm, verbose=True)
+llm_math_chain = LLMMathChain.from_llm(llm=llm, verbose=True) #Cálculos matemáticos
 search = SerpAPIWrapper()
 
 tools = [

@@ -15,11 +15,11 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 openai_organization = os.getenv("OPENAI_ORGANIZATION")
 
-db = SQLDatabase.from_uri("sqlite:///Chinook.db")
+db = SQLDatabase.from_uri("sqlite:///Chinook.db") #Criação do banco de dados
 
 llm = ChatOpenAI(
     model="gpt-3.5-turbo-16k",
-    temperature=0.0,
+    temperature=0.0, #Não quero que ele seja criativo
     openai_api_key=openai_api_key,
     openai_organization=openai_organization,
     verbose=True,
@@ -29,7 +29,7 @@ llm = ChatOpenAI(
 
 # db_chain.run("How many albuns are there?")
 
-agent_executor = create_sql_agent(
+agent_executor = create_sql_agent( #Criando o agent
     llm=llm,
     toolkit=SQLDatabaseToolkit(db=db, llm=llm),
     verbose=True,

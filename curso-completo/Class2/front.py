@@ -2,7 +2,7 @@ import langchain_helper as la
 import streamlit as st
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide") #Tela cheia
 st.title("Gerador de Nomes de Empresas")
 segmento = st.sidebar.text_area(label="Qual é o segmento da sua empresa?")
 
